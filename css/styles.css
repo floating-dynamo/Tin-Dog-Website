@@ -1,0 +1,156 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3 {
+  font-size: 1.4rem;
+}
+p {
+  color: #8f8f8f;
+}
+/* Headings */
+.B-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0px 18px;
+}
+.nav-link {
+  font-size: 1.2 rem;
+  font-weight: 400;
+}
+
+/* Download-Button */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-img {
+  width: 21%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 21%;
+}
+@media (max-width: 1028px) {
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+}
+
+/* Features */
+#features {
+  padding: 7% 0 7% 0;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.feat-img:hover {
+  color: #ff4c68;
+}
+.feat-img {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.feat-col {
+  text-align: center;
+  padding: 5%;
+}
+
+/* testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.carousel-item {
+  padding: 5% 13%;
+}
+.testimonial-image {
+  width: 8%;
+  border-radius: 100%;
+  margin: 10px;
+}
+#press {
+  background-color: #ef8172;
+  padding-bottom: 5%;
+  text-align: center;
+}
+.press-img {
+  width: 15%;
+  margin: 30px;
+}
+/* Pricing */
+#pricing {
+  text-align: center;
+}
+.card-content {
+  margin-bottom: 57px;
+}
+.pricing-col {
+  padding: 3% 2%;
+}
+
+/* Call to Action */
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 7% 0 7%;
+}
+.cta-head {
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 0 20% 5% 20%;
+  color: #fff;
+}
+.download-btn-2 {
+  margin: 0 1% 0 1%;
+}
+/* Footer */
+#footer {
+  text-align: center;
+  padding-top: 5%;
+  background-color: #fff;
+}
+.footer-img {
+  margin: 0 1% 1% 1%;
+}
